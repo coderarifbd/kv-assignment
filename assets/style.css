@@ -179,3 +179,36 @@
     color: #627382;
     line-height: 20px;
 }
+
+/* How it works style */
+#how-it-works {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 120px 20px;
+}
+
+.solution-content {
+    max-width: 450px;
+    /* padding-right:  */
+}
+#how-it-works .section-label {
+    color: #469165;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+#how-it-works .section-features {
+    list-style: none;
+}
+#how-it-works .section-features li {
+    color: #001931;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+#how-it-works .section-features .list-icon i {
+    color: #30B868;
+    margin-right: 6px;
+}
