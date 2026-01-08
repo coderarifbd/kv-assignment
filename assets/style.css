@@ -11,4 +11,57 @@
   font-style: normal;
 }
 
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
 
+.btn {
+    background-color: #469165;
+    border: 0;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+/* header style */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #fff;
+}
+
+#header .logo img{
+    height: 60px;
+    object-fit: contain;
+}
+
+#header .menu {
+    display: flex;
+    /* gap: 32px; */
+}
+
+#header .menu li{
+    list-style: none;
+    padding: 8px 16px;
+}
+
+#header .menu li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+
+#header .menu li a:hover {
+    color: #469165;
+}
+
+
+/* Hero section style  */
