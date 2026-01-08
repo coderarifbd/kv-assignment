@@ -65,3 +65,63 @@
 
 
 /* Hero section style  */
+#hero{
+    padding: 70px 20px 134px;
+    border: 1px solid green;
+    background: url(../images/hero-bg.png);
+    text-align: center;
+    color: #fff;
+}
+
+#hero .notice{
+    display: inline-flex;
+    gap: 18px;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    color: #469165;
+    font-weight: 500;
+    font-size: 16px;
+}
+.circle {
+  width: 6px;
+  height: 6px;
+  background: #2f8f5b;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 6px rgba(47, 143, 91, 0.2),
+    0 0 0 6px rgba(47, 143, 91, 0.1);
+    margin-left: 6px;
+}
+
+#hero .banner-title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-top: 16px;
+}
+
+#hero .hero-description {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto;
+}
+
+#hero .btn-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+#hero .btn-container .btn-transparent {
+    background-color: transparent;
+    border: 1px solid #fff;
+    transition: 0.2s ease-in-out;
+}
+
+#hero .btn-container .btn-transparent:hover {
+    background-color: #469165;
+    border-color: #469165;
+}
