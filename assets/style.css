@@ -91,7 +91,6 @@ html {
 /* Hero section style  */
 #hero{
     padding: 70px 20px 134px;
-    border: 1px solid green;
     background: url(../images/hero-bg.png);
     text-align: center;
     color: #fff;
