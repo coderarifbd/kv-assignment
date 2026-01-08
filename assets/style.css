@@ -9,6 +9,7 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-weight: 400;
 }
 
 .container {
@@ -25,6 +26,21 @@
     color: #fff;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+
 }
 
 /* header style */
@@ -124,4 +140,42 @@
 #hero .btn-container .btn-transparent:hover {
     background-color: #469165;
     border-color: #469165;
+}
+
+/* Features Style */
+#feature-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#feature-section .features {
+    display: flex;
+    gap: 24px;
+}
+
+#feature-section .features .feature{
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+#feature-section .features .feature img {
+    background-color: #F95555;
+    padding: 16px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    height: 60px;
+    width: 60px;
+}
+
+#feature-section .features .feature h4 {
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+#feature-section .features .feature p {
+    color: #627382;
+    line-height: 20px;
 }
